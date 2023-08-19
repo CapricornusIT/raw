@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'MB';
+    src: url('../Fonts/Montserrat/Montserrat-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'MM';
+    src: url('../Fonts/Montserrat/Montserrat-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'MR';
+    src: url('../Fonts/Montserrat/Montserrat-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'MSB';
+    src: url('../Fonts/Montserrat/Montserrat-SemiBold.ttf');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'WSR';
+    src: url('../Fonts/Work_Sans/WorkSans-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'WSM';
+    src: url('../Fonts/Work_Sans/WorkSans-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'NB';
+    src: url('../Fonts/Nunito/Nunito-Bold.ttf');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'NBlack';
+    src: url('../Fonts/Nunito/Nunito-Black.ttf');
+    font-weight: 900;
+}
+@font-face {
+    font-family: 'PM';
+    src: url('../Fonts/Poppins-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'RM';
+    src: url('../Fonts/Raleway-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'FAR';
+    src: url('../Fonts/Webfonts/fa-regular-400.ttf');
+    font-weight: 400;
+}
+.far{
+    font-family: 'FAR';
+    font-weight: 400;
+}
+.fa-search::before{
+    content: '\f002';
+    font-style: normal;
+}
+.fa-shopping-cart::before{
+    content: '\f07a';
+    font-style: normal;
+}
+.fa-long-arrow-left::before{
+    content: '\f177';
+    font-style: normal;
+}
+.fa-long-arrow-right::before{
+    content: '\f178';
+    font-style: normal;
+}
+@font-face {
+    font-family: 'FAL';
+    src: url('../Fonts/Webfonts/fa-light-300.ttf');
+    font-weight: 300;
+}
+.fal{
+    font-family: 'FAL';
+    font-weight: 300;
+}
+.fa-shipping-fast::before{
+    content: '\f48b';
+    font-style: normal;
+    font-size: 48px;
+    color: var(--akana-green);
+}
+.fa-user-headset::before{
+    content: '\f82d';
+    font-style: normal;
+    font-size: 48px;
+    color: var(--akana-green);
+}
+.fa-seedling::before{
+    content: '\f4d8';
+    font-style: normal;
+    font-size: 48px;
+    color: var(--akana-green);
+}
+.fa-usd-circle::before{
+    content: '\f2e8';
+    font-style: normal;
+    font-size: 48px;
+    color: var(--akana-green);
+}
+.fa-chevron-down::before{
+    content: '\f078';
+    font-style: normal;
+    font-size: 12px;
+    color: var(--black);
+}

@@ -1,0 +1,121 @@
+@media (max-width: 992px){
+    .section_features .features_items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        row-gap: 20px;
+    }
+    .main .container .main_benefits{
+        column-gap: 0;
+    }
+    .benefits_icon .service_icon-title{
+        line-height: 17px;
+    }
+    .main .container .section_meta{
+        flex-direction: column;
+    }
+    .meta_content-pic{
+        width: 738px;
+    }
+    .meta_content .meta_dscr {
+        padding: 10px 0 40px;
+    }
+    .main .container .section_benefits{
+        column-gap: 10px;
+        padding-left: 33px;
+    }
+    .benefits_content .content_title {
+        font-size: 20px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+    .benefits_content .benefits_content-btn {
+        width: 105px;
+        font-size: 13px;
+    }
+    .footer .container .footer_user{
+        max-width: 190px;
+    }
+    /* body .footer .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(4, 1fr);
+        column-gap: 80px;
+        row-gap: 80px;
+    } */
+    /* .footer_user-form{
+        grid-column: 3/3;
+        grid-row: 2/2;
+    } */
+}
+@media (max-width: 768px){
+    .section_features .features_items{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+    }
+    .main .container .main_benefits{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 20px;
+    }
+    .meta_content-pic{
+        width: 546px;
+    }
+    .main .container .section_benefits{
+        padding: 0 0 33px;
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+    .section_benefits .benefits_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    body .footer .container {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 80px;
+    }
+    .footer .container .footer_user{
+        grid-row: 2/2;
+    }
+}
+@media (max-width: 520px){
+    .main_benefits .benefits{
+        text-align: center;
+    }
+    .benefits .benefits_icon{
+        flex-direction: column;
+    }
+    .features_nav-left .section_features-title{
+        font-size: 15px;
+    }
+    .section_features .features_items{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .main .container .main_benefits{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 20px;
+    }
+    .meta_content-pic{
+        width: 290px;
+    }
+    .main .container .section_benefits{
+        padding: 0 0 33px;
+        flex-direction: column-reverse;
+        row-gap: 10px;
+    }
+    .section_benefits .benefits_content{
+        text-align: center;
+    }
+    body .footer .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 80px;
+    }
+}
